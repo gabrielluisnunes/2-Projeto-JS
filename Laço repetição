@@ -1,0 +1,15 @@
+var numSecreto = parseInt(Math.random() * 1001);
+
+while(chute!=numSecreto)
+  {
+    var chute = prompt('DIGITE UM NUMERO DE 0 A 1000');
+   
+  if(chute=numSecreto)
+    {
+      alert('ACERTOU');
+    } else if(chute < numSecreto){
+      alert('Numero secreto e maior');
+    }else if (chute > numSecreto){
+      alert('Numero secreto e menor');
+    }
+  }
